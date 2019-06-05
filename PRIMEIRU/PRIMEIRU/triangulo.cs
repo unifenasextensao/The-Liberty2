@@ -8,5 +8,7 @@ namespace PRIMEIRU
 {
 	class triangulo
 	{
+		private double altura;
+		private double baset;
 	}
 }
