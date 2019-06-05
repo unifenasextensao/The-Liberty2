@@ -10,15 +10,11 @@ namespace PRIMEIRU
 	{
 		private double altura;
 		private double baset;
-
         public double Altura { set => altura = value; }
         public double Baset { set => baset = value; }
-        
-
         public override double area()
         {
-            return altura * baset / 2.0;
+            return altura*baset/2.0;
         }
-
     }
 }
