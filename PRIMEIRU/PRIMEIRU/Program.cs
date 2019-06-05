@@ -9,12 +9,22 @@ namespace PRIMEIRU
     class Program
     {
         static void Main(string[] args)
-        {
-            List<figura> L = new List<figura>();
-            quadrado Q = null;
-            triangulo T = null;
-            Console.WriteLine("Digite o tipo da figura:");
-            
+        {   
+            Console.WriteLine("Selecione a opção:");
+            int op = int.Parse(Console.ReadLine());
+            Console.WriteLine("1.Circulo.");
+            Console.WriteLine("2.Circulo.");
+            Console.WriteLine("3.Circulo.");
+            switch (op)
+            {
+                case 1:
+                   break;
+                case 2:
+                    break;
+                case 3:
+                    break;
+
+            }
             Console.ReadKey();
             
         }
