@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace PRIMEIRU
 {
-    class Circulo
+    class Circulo:figura
     {
+        private double raio;
+
+        public double Raio { set => raio = value; }
+
+        public override double area()
+        {
+            return raio * raio;
+        }
     }
 }
