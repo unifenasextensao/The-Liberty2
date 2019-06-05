@@ -13,8 +13,8 @@ namespace PRIMEIRU
             Console.WriteLine("Selecione a opção:");
             int op = int.Parse(Console.ReadLine());
             Console.WriteLine("1.Circulo.");
-            Console.WriteLine("2.Circulo.");
-            Console.WriteLine("3.Circulo.");
+            Console.WriteLine("2.Triangulo.");
+            Console.WriteLine("3.Quadrado.");
             switch (op)
             {
                 case 1:
