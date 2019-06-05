@@ -11,7 +11,6 @@ namespace PRIMEIRU
         static void Main(string[] args)
         {
             Console.WriteLine("Helou gaix");
-            Console.ReadKey();
         }
     }
 }
