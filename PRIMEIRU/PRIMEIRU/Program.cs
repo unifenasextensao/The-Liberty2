@@ -10,7 +10,11 @@ namespace PRIMEIRU
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Helou gaix");
+            List<figura> L = new List<figura>();
+            quadrado Q = null;
+            triangulo T = null;
+            Console.WriteLine("Digite o tipo da figura:");
+            
             Console.ReadKey();
             
         }
