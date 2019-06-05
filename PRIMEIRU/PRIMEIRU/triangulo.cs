@@ -10,6 +10,6 @@ namespace PRIMEIRU
 	{
 		private double altura;
 		private double baset;
-
+         
 	}
 }
