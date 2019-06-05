@@ -8,5 +8,8 @@ namespace PRIMEIRU
 {
     class Circulo
     {
+        private double raio;
+        double Raio
+
     }
 }
