@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PRIMEIRU
 {
-	class quadrado
+	class quadrado:figura
 	{
 
 		private double lado;
